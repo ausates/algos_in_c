@@ -5,10 +5,10 @@
 void reverse_arr(int arr[], size_t arr_size){
     int new_arr[arr_size];
     int top, bottom, iter;
-    arr_size--;
     if (arr_size < 2){
         exit(1);
     }
+    arr_size--;
     iter=0;
     do
     {
