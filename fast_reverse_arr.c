@@ -3,7 +3,6 @@
 
 
 void reverse_arr(int arr[], size_t arr_size){
-    int new_arr[arr_size];
     int top, bottom, iter;
     if (arr_size < 2){
         exit(1);
